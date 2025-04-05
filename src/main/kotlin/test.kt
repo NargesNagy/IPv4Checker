@@ -85,7 +85,3 @@ fun test(name: String, result: Boolean, correctResult: Boolean){
     }
     println("Fail $name $result")
 }
-
-fun isValidIpv4(ip: String): Boolean {
-    return false
-}
