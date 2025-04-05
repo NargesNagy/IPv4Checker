@@ -10,7 +10,7 @@ fun isValidIpv4(ip: String): Boolean {
 
     val segments = ip.split(".")
 
-    if (segments.size > 4 || segments.size < 4 ) return false
+    if (segments.size != 4 ) return false
 
     segments.forEach { segment ->
         if (segment.isEmpty() || segment.length > 3) return false
